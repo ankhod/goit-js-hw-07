@@ -10,17 +10,21 @@
   <body>
     <p><a href="./index.html">Go back</a></p>
 
-    <form class="login-form">
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Password
-        <input type="password" name="password" />
-      </label>
-      <button type="submit">Login</button>
-    </form>
+    <div class="modal">
+      <form class="login-form">
+        <div class="modal-input-field">
+        <label class="modal-input-label">
+          Email
+          <input class="modal-input" type="email" name="email" />
+        </label>
+        <label class="modal-input-label">
+          Password
+          <input class="modal-input" type="password" name="password" />
+        </label class="modal-input-label">
+        <button type="submit">Login</button>
+        </div> 
+      </form>
+    </div>
 
     <script src="./js/task-4.js" type="module"></script>
   </body>

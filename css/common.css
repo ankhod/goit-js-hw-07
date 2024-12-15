@@ -129,3 +129,31 @@ a {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+/*===============  task-4 form ===============*/
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 408px;
+  min-height: 256px;
+  overflow: auto;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  gap: 16px;
+}
+.modal-input-label {
+  display: block;
+  font: 400 16px / 1.5 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.modal-input {
+  width: 360px;
+  min-height: 40px;
+}
